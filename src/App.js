@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+// import vid from './sadie.mov';
 
 class App extends Component {
 
@@ -52,6 +53,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+          
+
         <ol>
           {pokemon}
         </ol>
@@ -61,3 +65,8 @@ class App extends Component {
 }
 
 export default App;
+
+
+// <video autoPlay loop="true" id="sadie">
+//   <source src={vid} type="video/mp4" />
+// </video>

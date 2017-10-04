@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: tomato;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -26,3 +28,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* .vidContainer {
+  height: 300px;
+  width: 400px;
+  background-color: cornflowerblue;
+}
+#video {
+  height: 200px;
+  width: 300px;
+} */
